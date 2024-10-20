@@ -1,5 +1,5 @@
 import { z } from "zod";
-import { associatedSchema } from "./associatedSchema";
+import { associatedSchema } from "./associatedSchema.ts";
 
 export const subjectSchema = z.object({
   did: z.string(),
